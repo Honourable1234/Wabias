@@ -195,7 +195,7 @@ export default function Section4() {
               </div>
         </div>
       </div>
-      <div className="w-full pb-[50px]">
+      <div className="w-full pb-[50px] border">
         <div className="text-black text-center">
           <div className="flex w-[350px] justify-between m-auto pt-[30px]">
             <h2 className="text-[48px] text-Manrope w-[732px] ">CONTACT US</h2>
@@ -207,7 +207,7 @@ export default function Section4() {
          </div>
             <p className="text-[18px]">Send us a message! We will respond in no time.</p>
         </div>
-        <div className="w-[1312] h-[548] m-auto flex mt-[20px]">
+        <div className="w-[1312px] h-[548px] m-auto flex mt-[20px]">
             <div className=" px-[20px] py-[55px] h-[451px] w-[630px] text-black">
                 <div className="flex justify-between">
                     <Input title="First Name" placeHolder="First Name" customStyles="h-[40px] w-[283px]" />
