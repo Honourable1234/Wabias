@@ -10,13 +10,13 @@ export default function Section4() {
     setOpenIndex(openIndex === index ? null : index);
   };
   return (
-    <div className="bg-white">
+    <div className="bg-white pb-[50px]">
       <div className="flex w-[450px] justify-between m-auto pt-[30px]">
         <h2 className="text-[48px] text-Manrope  text-black text-center">
           WHAT PEOPLE SAY
         </h2>
         <Image
-          src="/images/Message.svg"
+          src="/images/MessageBig2.svg"
           alt="Quote Icon"
           width={45}
           height={45}
@@ -195,7 +195,7 @@ export default function Section4() {
               </div>
         </div>
       </div>
-      <div>
+      <div className="w-full pb-[50px]">
         <div className="text-black text-center">
           <div className="flex w-[350px] justify-between m-auto pt-[30px]">
             <h2 className="text-[48px] text-Manrope w-[732px] ">CONTACT US</h2>
