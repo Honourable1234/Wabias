@@ -207,7 +207,7 @@ export default function Section4() {
          </div>
             <p className="text-[18px]">Send us a message! We will respond in no time.</p>
         </div>
-        <div className="w-[1312px] h-[548px] m-auto flex mt-[20px]">
+        <div className="w-[1312px] h-[548px] m-auto flex mt-[20px] border justify-between">
             <div className=" px-[20px] py-[55px] h-[451px] w-[630px] text-black">
                 <div className="flex justify-between">
                     <Input title="First Name" placeHolder="First Name" customStyles="h-[40px] w-[283px]" />
