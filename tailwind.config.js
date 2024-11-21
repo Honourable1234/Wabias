@@ -24,6 +24,9 @@ module.exports = {
         Mulish: ['Mulish', 'Arial', 'sans-serif' ],
         Inter: ['Inter', 'sans-serif']
       },
+      backgroundImage: {
+        'dotted': "radial-gradient(circle, black 1px, transparent 1px)",
+      },
     },
   },
   plugins: [],
