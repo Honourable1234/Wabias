@@ -14,6 +14,10 @@ module.exports = {
         custom2: "#8A8A8A",
         custom3: "#555555"
       },
+      screens: {
+        custom1: "900px",
+        xs: "300px",
+      },
       fontWeight: {
         'extra-light': '600',
         'light': '400',
@@ -26,6 +30,9 @@ module.exports = {
       },
       backgroundImage: {
         'dotted': "radial-gradient(circle, black 1px, transparent 1px)",
+      },
+      translate: {
+        '45': '11.25rem',
       },
     },
   },
