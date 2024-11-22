@@ -37,7 +37,7 @@ export default function Section3() {
         <div className="relative flex m-auto bg-[10px_10px] h-[717px] w-[full] 2xl:w-[1420px] justify-between mt-[50px]">
           <Plan customStyles="z-10 hover:z-30 bg-white text-black md:left-[50px] lg:left-[0px]" customStylesButton="bg-black text-white" customSmallButton="bg-black text-white w-[123px] h-[36px] rounded-[36px] text-[16px] text-Manrope" smallButtonContent="Basic Plan" imageUrl="/images/GreenBullet.svg"/>  
           <Plan customStyles="z-20 bg-black text-white xs:left-[50px] sm:left-[150px] left-[300px] lg:left-[0px]" customStylesButton="bg-[#FBC02D] text-black" customSmallButton="bg-white text-black w-[123px] h-[36px] rounded-[36px] text-[16px] text-Manrope" smallButtonContent="Advance Plan" imageUrl="/images/YellowBulet.svg"/>
-          <Plan customStyles="sm:z-0 hover:z-30 bg-[white] md:bg-[#3F3F3F26] text-black xs:left-[100px] sm:left-[270px] left-[450px] lg:left-[0px] opacity-100 md:hover:translate-x-45 transform transition duration-300  lg:hover:translate-x-0" customStylesButton="bg-black text-white" customSmallButton="bg-black text-white w-[123px] h-[36px] rounded-[36px] text-[16px] text-Manrope" smallButtonContent="Starter Plan" imageUrl="/images/GreenBullet.svg"/>  
+          <Plan customStyles="sm:z-0 hover:z-30 bg-[white] md:bg-[#3F3F3F26] text-black xs:left-[70px] mt-[50px] sm:mt-[0px] sm:left-[200px] left-[450px] lg:left-[0px] opacity-100 md:hover:translate-x-45 transform transition duration-300  lg:hover:translate-x-0" customStylesButton="bg-black text-white" customSmallButton="bg-black text-white w-[123px] h-[36px] rounded-[36px] text-[16px] text-Manrope" smallButtonContent="Starter Plan" imageUrl="/images/GreenBullet.svg"/>  
         </div>
       </div>
     </div>
