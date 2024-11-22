@@ -16,6 +16,7 @@ module.exports = {
       },
       screens: {
         custom1: "900px",
+        vs: "400px",
         xs: "300px",
       },
       fontWeight: {

@@ -50,7 +50,7 @@ function Footer() {
       <div className="h-[129px] w-full max-w-[1212px] m-auto px-[20px] flex justify-between items-center text-[#A8A8A8]">
         <p>@ Copyrights 2024 WABAIS</p>       
         <Image src="/images/Logo.png" alt="Message Icon" width={198.64} height={89}/>
-        <div className="flex">
+        <div className="block sm:flex">
             <p>Terms</p>
             <p>Privacy</p>
             <p>Cookies</p>

@@ -18,7 +18,7 @@ export default function Section3() {
           <Sales imageUrl="/images/Sales3.png"/>
         </div>
       </div>
-      <div className="bg-white h-[1108px] pt-[48px] m-auto mt-[50px]">
+      <div className="bg-white h-[550px]  vs:h-[1108px] pt-[48px] m-auto mt-[50px]">
         <div className="flex w-[180px] sm:w-[240px] justify-between m-auto">
           <h2 className="text-[36px] sm:text-[48px] text-Manrope text-extra-light">PRICING</h2>
           <div className="h-[37px] sm:h-[46px] mt-[15px]">
@@ -34,7 +34,12 @@ export default function Section3() {
           <button className="text-[36px] text-extra-light">INR</button>
           <button className="mt-[20px] text-light">USD</button>
         </div>
-        <div className="relative flex m-auto bg-[10px_10px] h-[717px] w-[full] 2xl:w-[1420px] justify-between mt-[50px]">
+        <div className="mt-[50px] block vs:hidden">
+           <div className="border hover:text-white w-[200px] m-auto bg-[#FBC02D] pt-[12px] rounded-[20px] h-[50px]">BASIC PLAN</div>
+           <div className="border mt-[10px] hover:text-white w-[200px] m-auto bg-[#FBC02D] pt-[12px] rounded-[20px] h-[50px]">ADVANCED PLAN</div>
+           <div className="border mt-[10px] hover:text-white w-[200px] m-auto bg-[#FBC02D] pt-[12px] rounded-[20px] h-[50px]">STARTER PLAN</div>
+        </div>
+        <div className="hidden relative vs:flex m-auto bg-[10px_10px] vs:h-[717px] w-[full] 2xl:w-[1420px] justify-between mt-[50px]">
           <Plan customStyles="z-10 hover:z-30 bg-white text-black md:left-[50px] lg:left-[0px]" customStylesButton="bg-black text-white" customSmallButton="bg-black text-white w-[123px] h-[36px] rounded-[36px] text-[16px] text-Manrope" smallButtonContent="Basic Plan" imageUrl="/images/GreenBullet.svg"/>  
           <Plan customStyles="z-20 bg-black text-white xs:left-[50px] sm:left-[150px] left-[300px] lg:left-[0px]" customStylesButton="bg-[#FBC02D] text-black" customSmallButton="bg-white text-black w-[123px] h-[36px] rounded-[36px] text-[16px] text-Manrope" smallButtonContent="Advance Plan" imageUrl="/images/YellowBulet.svg"/>
           <Plan customStyles="sm:z-0 hover:z-30 bg-[white] md:bg-[#3F3F3F26] text-black xs:left-[70px] mt-[50px] sm:mt-[0px] sm:left-[200px] left-[450px] lg:left-[0px] opacity-100 md:hover:translate-x-45 transform transition duration-300  lg:hover:translate-x-0" customStylesButton="bg-black text-white" customSmallButton="bg-black text-white w-[123px] h-[36px] rounded-[36px] text-[16px] text-Manrope" smallButtonContent="Starter Plan" imageUrl="/images/GreenBullet.svg"/>  

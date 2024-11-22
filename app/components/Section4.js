@@ -209,7 +209,7 @@ export default function Section4() {
       <div className="w-full pb-[50px] border">
         <div className="text-black text-center">
           <div className="flex w-[220px] sm:w-[350px] justify-between m-auto pt-[30px]">
-            <h2 className="text-[32px] sm:text-[48px] text-Manrope w-[732px] ">CONTACT US</h2>
+            <h2 className="text-[32px] sm:text-[48px] text-Manrope w-[500px] md:w-[732px] ">CONTACT US</h2>
             <Image
               src="/images/MessageIcon.svg"
               alt="Message Icon"
@@ -221,7 +221,7 @@ export default function Section4() {
             <p className="text-[18px]">Send us a message! We will respond in no time.</p>
         </div>
         <div className="w-full max-w-[1312px] m-auto block sm:flex mt-[20px] justify-between">
-            <div className=" py-[55px] h-[451px] w-full 2xl:w-[630px] text-black">
+            <div className=" py-[55px] h-[600px] vs-h-[451px] w-full 2xl:w-[630px] text-black">
                 <div className="block md:flex gap-[20px]">
                     <Input title="First Name" placeHolder="First Name" customStyles="h-[40px] w-full 2xl:w-[283px]" />
                     <Input title="Last Name" placeHolder="Last Name" customStyles="h-[40px] w-full 2xl:w-[283px]" />
@@ -238,7 +238,7 @@ export default function Section4() {
                    <Image src="/images/BlackPointer.svg" alt="Message Icon" width={45} height={45}/>
                 </div>
             </div>
-            <div className="w-[350px] custom1:w-[500px] 2xl:w-[630px] sm:h-[528px] bg-[black] rounded-[10px] py-[30px] px-[45px] m-auto mt-[160px] sm:mt-[0px]">
+            <div className="hidden vs:block w-[350px] custom1:w-[500px] 2xl:w-[630px] sm:h-[528px] bg-[black] rounded-[10px] py-[30px] px-[45px] m-auto mt-[160px] sm:mt-[0px]">
                 <div>
                     <div className="flex justify-between w-[300px]">
                        <Image src="/images/Call.svg" alt="Message Icon" width={70} height={70}/>
